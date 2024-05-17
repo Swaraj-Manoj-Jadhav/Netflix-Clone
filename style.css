@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    background-color: black;
+    height: 200vh;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/Images/mainbg.jpeg);
+    /* filter: brightness(0.7); */
+
+}
+
+.logo img {
+    width: 100px;
+    color: red;
+
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+   
+
+
+}
+
+.buttons {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.naveng {
+    padding: 3px 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.navin {
+    margin: 0 5px;
+    padding: 3px 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+nav .logo img {
+   z-index: 10;
+
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-top: 140px;
+}
+
+.text span h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.text span h2 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.text span h3 {
+    font-size: 14px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.email input {
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.555);
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    padding-right: 100px;
+    cursor: pointer;
+
+
+}
+
+
+.getstarted button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+
+}
+
+.seprater {
+    width: 100vw;
+    height: 8px;
+    background-color: grey;
+    justify-content: end;
+    margin-top: 60px;
+}
+
+.tvbg img {
+    width: 400px;
+    position: relative;
+    z-index: 10;
+}
+
+.tvbg video {
+    width: 290px;
+    position: absolute;
+    right: 56px;
+    top: 529px;
+
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+}
+
+.sec1text div {
+
+
+    font-weight: 900;
+    font-size: 35px;
+
+}
+
+.sec1text {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.sec1text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img img {
+    width: 400px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+.sec2text {
+    margin-right: 70px;
+}
+
+.video2{
+    position: relative;
+    margin-top: 790px;
+    overflow: hidden;
+    
+}
+
+.section4{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.faq{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.Qbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 20px;
+    background-color: #2d2d2d;
+    margin: 5px;
+    padding: 20px 10px;
+    
+}
+
+.Qbox span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.faq span h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Qbox:hover{
+    background-color: #414141;
+}
+
+footer{
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* max-width: 60vw; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+footer span{
+    margin-bottom: 30px ;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-items a{
+    font-size:10px;
+    font-weight: 400;
+}
+
+/* .main .box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+} */
+
+.faqeng{
+    width: 70px;
+}
+
+
+.footer-items span{
+    font-size: 9px;
+    font-weight: 400;
+}
